@@ -11,38 +11,15 @@ html, body, h1, h2, h3, h4, h5, h6, p, div, span{
     scroll-snap-type: y mandatory;
 }
 
-
 section{
     width:100vw;
     height:100vh;
+    background-color:black;
     display:grid;
     place-items:center;
     scroll-snap-align: center;
     scroll-snap-stop: always; 
     transition:.3s ease;
-}
-
-section:first-child{
-    background-color: orange;
-    background:url("../rohan-reddy-8t2aqR9suDo-unsplash.jpg");
-    background-size:cover;
-    background-attachment: fixed;
-}
-
-section:nth-child(2){
-    background-color: #eee;
-}
-
-section:nth-child(3){
-    background-color: orangered;
-}
-
-section:nth-child(4){
-    background-color: greenyellow;
-}
-
-section:last-child{
-    background-color: steelblue;
 }
 
 section article{
