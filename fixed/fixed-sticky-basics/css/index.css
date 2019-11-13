@@ -12,26 +12,29 @@ html, body, main, article, h1, h2, h3, h4, h5, h6, p, div, span{
 
 nav a {
     text-decoration:none;
-    color:#4285F4;
+    color:#fff;
     font-size:1.4rem;
+    font-weight:600;
 }
 
 article{
     height:100vh;
     width:100vw;
     padding-top:10vh;
+    background-color:#f4f4f8;
     display:grid;
     place-items: center;
     scroll-snap-align: center;
+    scroll-snap-stop:always;
 }
 
 nav{
     width:100vw;
-    height:10vh;
+    height:20vh;
     position:fixed;
     top:0;
     left:0;
-    background-color:#eee;
+    background-color:#fe4a49;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -39,9 +42,12 @@ nav{
 
 nav.sticky{
     position:sticky;
-    background-color:#4285F4;
+    background-color:#2ab7ca;
 }
 nav.sticky a{
     color:white;
+}
+nav.sticky:last-of-type{
+    background-color: #fed766;
 }
 
