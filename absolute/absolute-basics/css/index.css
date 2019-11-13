@@ -7,17 +7,23 @@ html, body, h1, h2, h3, h4, h5, h6, p, div, span{
     box-sizing:border-box;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 main{
     width:50vw;
     height:50vh;
+    margin: 2rem auto;
     background-color:#444;
     position:relative;
 }
 
 article{
     background-color:#eee;
+    padding:2rem;
     position:absolute;
-    right:0;
+    left:0;
     bottom:0;
     width:100%;
     text-align:center;
